@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F4EF;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    display: block;
+}
+
+/*header*/
+
+.header {
+    text-align: center;
+    padding: 1.4em 0;
+}
+
+.title {
+    display: inline-block;
+    color: #020826;
+    border-bottom: 1px solid #716040;
+    font-size: 3rem;
+    margin-bottom: 0.15rem;
+}
+
+.title-paragraph {
+    font-size: 1.5rem;
+    color: #716040;
+}
+
+.media {
+    padding: 5em 5em 3em;
+    margin: 2em auto 1em;
+    background-color: #EADDCF;
+    width: 100%;
+}
+
+.media-img {
+    border-radius: 5px;
+    display: block;
+    border: 1px solid #020826;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+.media-caption {
+    max-width: 720px;
+    margin: 1em auto 0;
+    color: #716040;
+    padding: 0 1em;
+}
+
+.article {
+    display: block;
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+.article-title {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #020826;
+}
+
+.article > * + *{
+    margin: 3em auto;
+}
+
+.list {
+    padding: 0 4em;
+}
+
+.list * {
+    margin-top: 1.2rem;
+}
+
+.list > li {
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #716040;
+}
+
+.time {
+    color: #716040;
+    font-weight: bold;
+}
+
+.citation {
+    margin: 2em 4em;
+    text-align: center;
+    padding-top: 1em;
+    color: #716040;
+    border-top: 1px solid #8c7851;
+}
+
+.footer {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.5em;
+    color: #716040;
+    background-color: #eaddcf;
+}
